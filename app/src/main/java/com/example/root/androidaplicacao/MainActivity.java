@@ -2,6 +2,10 @@ package com.example.root.androidaplicacao;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
+import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,5 +13,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void clique(View view){
+        Toast.makeText(this, "Você pressionou o botão gerar número", Toast.LENGTH_LONG).show();
+
+        //textView.setTex(editText)=5;
     }
 }
