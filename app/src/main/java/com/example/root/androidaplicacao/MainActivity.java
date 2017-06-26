@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clique(View view){
-        Toast.makeText(this, "Você pressionou o botão gerar número", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "o botão gerar número foi pressionado", Toast.LENGTH_LONG).show();
 
         //textView.setTex(editText)=5;
     }
